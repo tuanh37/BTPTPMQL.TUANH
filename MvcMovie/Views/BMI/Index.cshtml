@@ -1,0 +1,37 @@
+@using MvcMovie.Models
+@{
+    ViewData["Title"] = "Tính Chỉ Số BMI";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg p-4">
+                <h2 class="text-center text-primary mb-3">💪 Tính Chỉ Số BMI</h2>
+
+                <form method="post" class="mb-3">
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Cân nặng (kg):</label>
+                        <input type="number" name="weight" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Chiều cao (cm hoặc m):</label>
+                        <input type="number" name="height" class="form-control" required>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">📊 Tính BMI</button>
+                    </div>
+                </form>
+
+                @if (Model != null)
+                {
+                    <div class="alert alert-info text-center fw-bold mt-3">
+                        <h4>✅ Kết quả BMI: @Model.BMI.ToString("F2") - @Model.Category</h4>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<style>
+h2:after {
+  content: ' \00A7';
+}
+</style>
+<body>
+
+<h2>TU ANH</h2>
+
+<p>All H2 elements will be added an extra character at the end.</p>
+
+</body>
+</html>
