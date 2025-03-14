@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BTH_HTML_And_W3CSS\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\PTPMQL2425K2-main\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "D:\\BTH_HTML_And_W3CSS\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\PTPMQL2425K2-main\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BTH_HTML_And_W3CSS\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\PTPMQL2425K2-main\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "D:\\BTH_HTML_And_W3CSS\\MvcMovie\\MvcMovie.csproj",
-        "packagesPath": "C:\\Users\\kimth\\.nuget\\packages\\",
-        "outputPath": "D:\\BTH_HTML_And_W3CSS\\MvcMovie\\obj\\",
+        "projectPath": "C:\\PTPMQL2425K2-main\\MvcMovie\\MvcMovie.csproj",
+        "packagesPath": "C:\\Users\\tuanh\\.nuget\\packages\\",
+        "outputPath": "C:\\PTPMQL2425K2-main\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kimth\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tuanh\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +37,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -88,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
